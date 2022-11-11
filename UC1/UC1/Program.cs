@@ -12,8 +12,18 @@ namespace UC1
         static void Main(string[] args)
         {
             Random random = new Random();
-            Console.WriteLine("roll number\n" +random.Next(1,10));           
-            Console.ReadLine();     
+                int x = 1;
+                int empcheck = random.Next(0, 1);
+                if (empcheck == x)
+                {
+                    Console.WriteLine("emp present");
+                }
+                else
+                {
+                    Console.WriteLine("emp absent");
+                }
+                Console.ReadLine();
         }
     }
+
 }
