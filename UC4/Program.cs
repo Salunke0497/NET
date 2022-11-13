@@ -17,9 +17,6 @@ namespace UC4
         public const int EMP_RATE_PER_HOUR = 20;
         public static void EmpWageUsingSwitch()
         {
-            //Constants
-
-            //variables
             int empHrs = 0;
             int empWage = 0;
             Random random = new Random();
